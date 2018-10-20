@@ -9,4 +9,6 @@ wget https://raw.githubusercontent.com/AlexCarvalhoDev/php-server-status-json/ma
 
 ### Usage
 GET request:
-> http://<your_server>/api.php/<your_token>
+```
+http://<your_server>/api.php/<your_token>
+```
