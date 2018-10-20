@@ -13,4 +13,4 @@ GET request:
 http://<your_server>/api.php/<your_token>
 ```
 
-#### Feel free to make suggestions of improvements that you want :D
+#### Feel free to suggest improvements that you want :D
