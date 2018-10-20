@@ -1,7 +1,7 @@
 # PHP Server Status JSON
 A server status API with token verification.
 
-#### Instalation
+#### Installation
 Just download/copy it to your web server:
 ```
 wget https://raw.githubusercontent.com/AlexCarvalhoDev/php-server-status-json/master/api.php
