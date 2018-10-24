@@ -1,3 +1,4 @@
+[![MIT Licence](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/AlexCarvalhoDev/php-server-status-json/blob/master/LICENSE)
 # PHP Server Status JSON
 A server status API with token verification.
 
