@@ -3,17 +3,17 @@
 # PHP Server Status JSON
 A server status API with token verification.
 
-#### Installation
-Just download/copy it to your web server:
-```
-wget https://raw.githubusercontent.com/AlexCarvalhoDev/php-server-status-json/master/api.php
-```
-
 #### Available Metrics
 * Uptime
 * Load average
 * RAM
 * Disk
+
+#### Installation
+Just download/copy it to your web server:
+```
+wget https://raw.githubusercontent.com/AlexCarvalhoDev/php-server-status-json/master/api.php
+```
 
 #### Usage
 GET request:
