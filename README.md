@@ -9,6 +9,12 @@ Just download/copy it to your web server:
 wget https://raw.githubusercontent.com/AlexCarvalhoDev/php-server-status-json/master/api.php
 ```
 
+#### Available Metrics
+* Uptime
+* Load average
+* RAM
+* Disk
+
 #### Usage
 GET request:
 ```
