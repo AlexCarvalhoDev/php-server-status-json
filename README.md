@@ -4,10 +4,17 @@
 A server status API with token verification.
 
 #### Available Metrics
-* Uptime
-* Load average
-* RAM
+* Uptime (string)
+* Load average (array)
+  * Load 1
+  * Load 2
+  * Load 3
+* RAM (array)
+  * Total (MB)
+  * Free (MB)
 * Disk
+  * Total (MB)
+  * Free (MB)
 
 #### Installation
 Just download/copy it to your web server:
