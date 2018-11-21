@@ -3,9 +3,11 @@
 $filename = 'api.php';
 $api_token = ''; // the token you want to be your auth token
 
+header('Content-Type: application/json');
+
 // get the HTTP method, path and body of the request
 $request = apiInputClean(explode('/', $_SERVER['REQUEST_URI']));
-$input_token = $request[0];
+$input_token = end($request);
 
 if (apiTokenCheck($input_token, $api_token)){
 
