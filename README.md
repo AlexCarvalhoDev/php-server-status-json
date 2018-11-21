@@ -12,7 +12,7 @@ A server status API with token verification.
 * RAM (array)
   * Total (MB)
   * Free (MB)
-* Disk
+* Disk (array)
   * Total (MB)
   * Free (MB)
 
