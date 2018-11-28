@@ -23,14 +23,13 @@ if (apiTokenCheck($input_token, $api_token)){
 
     // get server load averages
     function serverLoad(){
-        $loadresult = @exec('uptime');
-        preg_match("/averages?: ([0-9\.]+),[\s]+([0-9\.]+),[\s]+([0-9\.]+)/",$loadresult,$load);
-        unset($load[0]);
-        $loadfinal = array_values($load);
-
-        foreach ($loadfinal as $key => $value){
-            settype($loadfinal[$key], 'float');
-        }
+        $loadresult = @exec('cat /proc/loadavg');
+        $arr = explode(" ", $loadresult);
+        $loadfinal = array(
+            'load 1' => $arr[0],
+            'load 2' => $arr[1],
+            'load 3' => $arr[2]
+        );
 
         return $loadfinal;
     }
